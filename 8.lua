@@ -46,7 +46,7 @@ function NemoZLibrary:CreateWindow(config)
 
     local IntroBackground = Instance.new("Frame", IntroGui)
     IntroBackground.Size = UDim2.new(1, 0, 1, 0)
-    IntroBackground.BackgroundColor3 = Color3.fromRGB(15, 22, 36)
+    IntroBackground.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
     IntroBackground.BorderSizePixel = 0
     IntroBackground.BackgroundTransparency = 0
 
@@ -60,9 +60,9 @@ function NemoZLibrary:CreateWindow(config)
     IntroTitle.Position = UDim2.new(0, 0, 0.5, -50)
     IntroTitle.BackgroundTransparency = 1
     IntroTitle.Text = Name
-    IntroTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+    IntroTitle.TextColor3 = Color3.fromRGB(80, 150, 255)
     IntroTitle.Font = Enum.Font.GothamBold
-    IntroTitle.TextSize = 40
+    IntroTitle.TextSize = 67
     IntroTitle.TextTransparency = 1 
     IntroTitle.TextXAlignment = Enum.TextXAlignment.Center
 
