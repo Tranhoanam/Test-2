@@ -524,7 +524,7 @@ function NemoZLibrary:CreateWindow(config)
             local selectedText = Instance.new("TextLabel", valueBox)
             selectedText.Size = UDim2.new(1, -15, 1, 0)
             selectedText.Position = UDim2.new(0, 0, 0, 0)
-            selectedText.Text = "Chọn..."
+            selectedText.Text = "Select..."
             selectedText.TextColor3 = Color3.fromRGB(150, 150, 150)
             selectedText.Font = Enum.Font.Gotham
             selectedText.TextSize = 12
@@ -603,7 +603,7 @@ function NemoZLibrary:CreateWindow(config)
                         selectedText.Text = table.concat(selectedItems, ", ")
                         selectedText.TextColor3 = Color3.new(1, 1, 1)
                     else
-                        selectedText.Text = "Chọn..."
+                        selectedText.Text = "Select..."
                         selectedText.TextColor3 = Color3.fromRGB(150, 150, 150)
                     end
                     pcall(function() callback(selectedItems) end)
@@ -647,7 +647,7 @@ function NemoZLibrary:CreateWindow(config)
             local selectedText = Instance.new("TextLabel", valueBox)
             selectedText.Size = UDim2.new(1, -15, 1, 0)
             selectedText.Position = UDim2.new(0, 0, 0, 0)
-            selectedText.Text = "Chọn..."
+            selectedText.Text = "Select..."
             selectedText.TextColor3 = Color3.fromRGB(150, 150, 150)
             selectedText.Font = Enum.Font.Gotham
             selectedText.TextSize = 12
@@ -875,7 +875,7 @@ function NemoZLibrary:CreateWindow(config)
             inputBox.Position = UDim2.new(1, -165, 0.5, -15)
             inputBox.BackgroundColor3 = Color3.fromRGB(35, 38, 48)
             inputBox.Text = ""
-            inputBox.PlaceholderText = placeholder or "Nhập..."
+            inputBox.PlaceholderText = placeholder or "Type..."
             inputBox.PlaceholderColor3 = Color3.fromRGB(120, 125, 135)
             inputBox.TextColor3 = Color3.new(1, 1, 1)
             inputBox.Font = Enum.Font.Gotham
